@@ -1,16 +1,31 @@
-# RANK-OF-A-MATRIX
+# -SOLUTION-TO-A-SYSTEM-OF-LINEAR-EQUATIONS
 ## Aim:
-To write a python program to find the rank of a matrix
+To write a python program to find a solution to a system of linear equations.
 ## Equipment’s required:
 1. 	Hardware – PCs
 2. 	Anaconda – Python 3.7 Installation / Moodle-Code Runner
 ## Algorithm:
 ### Step 1: 
+Import the numpy module to use the built-in functions for calculation
 ### Step 2: 
-### Step 3: Using the np.linalg.matrix_rank(), we can find the rank of the given matrix.
+Prepare the lists from each linear equations and assign in np.array()
+### Step 3: 
+Using the np.linalg.solve(), we can find the solutions.
 ### Step 4: 
+End the program
 ## Program:
+```
+#Program to find the solution for the given linear equations.
+#Developed by: VINISHRAJ R
+#RegisterNumber: 212223230243
+import numpy as np
+a=np.array([[1,-3],[3,1]])
+b=np.array([0,10])
+ans=np.linalg.solve(a,b)
+print(ans)
+```
 ## Output:
-## Result:
-Thus the rank for the given matrix is successfully solved by  using a python program.
+![alt text](image.png)
+## Result: 
+Thus the solutions for the linear equations are successfully solved using python program
 
